@@ -2,11 +2,18 @@
 
 Rock, paper & scissors
 
-## Project decription
+## Project description
 
-### Short decription
+### Short description
+
+Our goal is to create a clone of the classic game of ***rock, paper, scissors***. This world-class production will change the lives of many users. 
+> *Especially those who call this game "sim sam sum" 🙄.
 
 ### Main features of our game
+
+- rock beats scissors     (🪨 > ✂️)
+- scissors beats paper    (✂️ > 📝)
+- paper beats rock        (📝 > 🪨)
 
 ### How will it work?
 
@@ -25,6 +32,7 @@ During the meeting, we discuss what we had achieved in a previous week and set n
 
 ## Authors
 1. [Szymon Górski](https://github.com/sggorski)
+1. [Marcin Wolder](https://github.com/marcinwolder)
 
 ## License
 
