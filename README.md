@@ -17,6 +17,12 @@ Our goal is to create a clone of the classic game of ***rock, paper, scissors***
 
 ### How will it work?
 
+1. User chooses their option by clicking on a accurate picture or typing symbol on a keyboard: 'r' stands for "rock", 'p' for "paper" and 's' for "scissors".
+1. Computer draws lots its option
+1. Both are displayed on screen and compared
+1. Winner gets 1 point, loser - 0 (if draw both players get 0 points)
+Then all of previous steps are repeated over and over again - till user decides to give up 🤗
+
 ## Software and programs used in our project
 
 
@@ -33,6 +39,7 @@ During the meeting, we discuss what we had achieved in a previous week and set n
 ## Authors
 1. [Szymon Górski](https://github.com/sggorski)
 1. [Marcin Wolder](https://github.com/marcinwolder)
+1. [Paweł Gleindek](https://github.com/pavlvs-91)
 
 ## License
 
