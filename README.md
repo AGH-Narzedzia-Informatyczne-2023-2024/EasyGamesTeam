@@ -21,7 +21,16 @@ Our goal is to create a clone of the classic game of ***rock, paper, scissors***
 1. Computer draws lots its option
 1. Both are displayed on screen and compared
 1. Winner gets 1 point, loser - 0 (if draw both players get 0 points)
-Then all of previous steps are repeated over and over again - till user decides to give up 🤗
+
+Then all of previous steps are repeated over and over again - till user decides to give up.
+
+Another option in our game: **game between 2 users** (using Internet):
+> It's works very similarly to the previous version, but I'll write here description anyway 🤗
+1. First user chooses his option
+1. Other one does so
+1. Options are compared, score is calculated and displayed
+
+...till someone resigns.
 
 ## Software and programs used in our project
 
@@ -42,6 +51,8 @@ During the meeting, we discuss what we had achieved in a previous week and set n
 1. [Paweł Gleindek](https://github.com/pavlvs-91)
 
 ## License
+
+We are using the [MIT License](https://opensource.org/license/mit/) - here's some info about it.
 
 ## Other links
 
