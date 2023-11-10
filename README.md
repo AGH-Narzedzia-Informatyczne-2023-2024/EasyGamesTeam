@@ -38,10 +38,12 @@ Another option in our game: **game between 2 users** (using Internet):
 ## Main milestones in our project
 
 
+
 ## Information about meetings
 
 Meetings are held once a week. Exact time of a meeting is determined by a poll made in Doodle in which all of us vote for the appropiate date.
 During the meeting, we discuss what we had achieved in a previous week and set new goals for our project. It is also a good opportunity to solve some problems that occured during our work.
+Tasks for our group are on [Trello](https://trello.com/).
 
 ## Our goals related to the project
 
@@ -49,6 +51,7 @@ During the meeting, we discuss what we had achieved in a previous week and set n
 1. [Szymon Górski](https://github.com/sggorski)
 1. [Marcin Wolder](https://github.com/marcinwolder)
 1. [Paweł Gleindek](https://github.com/pavlvs-91)
+2. [Harelikau Valadar](https://github.com/lpinqwe)
 
 ## License
 
