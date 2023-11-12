@@ -47,11 +47,18 @@ Tasks for our group are on [Trello](https://trello.com/).
 
 ## Our goals related to the project
 
+- Finish the project on time
+- Work on our collaboration and communication
+- Learn how to code and make the code readable by other people
+- Discover our strenghts and weaknesses regarding working in a group
+
 ## Authors
 1. [Szymon Górski](https://github.com/sggorski)
 1. [Marcin Wolder](https://github.com/marcinwolder)
 1. [Paweł Gleindek](https://github.com/pavlvs-91)
 2. [Harelikau Valadar](https://github.com/lpinqwe)
+3. [Jan Jędra](https://github.com/paukerson)
+
 
 ## License
 
