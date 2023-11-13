@@ -33,11 +33,23 @@ Another option in our game: **game between 2 users** (using Internet):
 ...till someone resigns.
 
 ## Software and programs used in our project
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Sublime Text](https://www.sublimetext.com)
+- [Adobe Photoshop](https://www.adobe.com/pl/products/photoshop)
+- [Gimp](https://www.gimp.org)
 
 
 ## Main milestones in our project
 
-
+1. Set up development environment
+2. Prepare appropriate documentation
+3. Design a user interface
+4. Create the game mechanics
+5. Optimize the application's resource complexity
+6. Design audiovisual effects
+7. Test the application for potential errors
+8. Present the outcome of our work
 
 ## Information about meetings
 
@@ -58,6 +70,7 @@ Tasks for our group are on [Trello](https://trello.com/).
 1. [Paweł Gleindek](https://github.com/pavlvs-91)
 2. [Harelikau Valadar](https://github.com/lpinqwe)
 3. [Jan Jędra](https://github.com/paukerson)
+4. [Łukasz Garczyński](https://github.com/Lukasz0611)
 
 
 ## License
