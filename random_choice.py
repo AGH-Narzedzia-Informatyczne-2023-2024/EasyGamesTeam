@@ -1,5 +1,5 @@
-# Two simple function, one generates computer's choice (p = paper, r = rock, s = scissors)
-# Second one is a test function in which we can see how often do we get certain results
+# Two simple function, one generates computer's choice (p = paper, r = rock, s = scissors).
+# Second one is a test function in which we can see how often do we get certain results.
 
 import random
 def random_choice():
