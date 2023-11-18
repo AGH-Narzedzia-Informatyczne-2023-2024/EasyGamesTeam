@@ -18,7 +18,7 @@ if (game_mode == 0):
                     break
                 n = int(wybor)
                 break
-            except (ValueError or wybor == '1'):
+            except ValueError:
                 print('Nieprawidlowy wybor, sproboj jeszcze raz!\n')
                 pass
         if(wybor == 'stop'):
@@ -45,7 +45,7 @@ if (game_mode == 1):
                     break
                 n = int(wybor)
                 break
-            except (ValueError or wybor == '1'):
+            except ValueError:
                 print('Nieprawidlowy wybor, sproboj jeszcze raz!\n')
                 pass
         if(wybor == 'stop'):
