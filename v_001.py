@@ -16,22 +16,22 @@ if (game_mode == 0):
                 wybor = input("Wybierz swoja opcje (lub 'stop' jesle chcesz zakonczyc):")
                 if(wybor == 'stop'):
                     break
-                n = int(wybor)
+                wybor = int(wybor)
                 break
             except ValueError:
-                print('Nieprawidlowy wybor, sproboj jeszcze raz!\n')
+                print('\nNieprawidlowy wybor, sproboj jeszcze raz!\n')
                 pass
         if(wybor == 'stop'):
             print('Koniec rozgrywki')
             break
-        if int(wybor) == 1:
-            print("Ooops, ja wybralem nozyce, przegrywasz :))\n")
-        elif int(wybor) == 2:
-            print("Ooops, ja wybralem papier, przegrywasz :))\n")
-        elif int(wybor) == 3:
-            print("Ooops, ja wybralem kamien, przegrywasz :))\n")
+        if wybor == 1:
+            print("\nOoops, ja wybralem nozyce, przegrywasz :))\n")
+        elif wybor == 2:
+            print("\nOoops, ja wybralem papier, przegrywasz :))\n")
+        elif wybor == 3:
+            print("\nOoops, ja wybralem kamien, przegrywasz :))\n")
         else:
-            print('Nieprawidlowy wybor, sproboj jeszcze raz!\n')
+            print('\nNieprawidlowy wybor, sproboj jeszcze raz!\n')
 
 if (game_mode == 1):
     while True:
@@ -43,25 +43,25 @@ if (game_mode == 1):
                 wybor = input("Wybierz swoja opcje (lub 'stop' jesle chcesz zakonczyc):")
                 if(wybor == 'stop'):
                     break
-                n = int(wybor)
+                wybor = int(wybor)
                 break
             except ValueError:
-                print('Nieprawidlowy wybor, sproboj jeszcze raz!\n')
+                print('\nNieprawidlowy wybor, sproboj jeszcze raz!\n')
                 pass
         if(wybor == 'stop'):
             print('Koniec rozgrywki')
             break
         wybor = int(wybor)
         comp_choose = random.randint(1, 3)
-        if (int(wybor) == comp_choose):
-            print(f"remis-wybrales:{wybor},wybralem{comp_choose}")
-        elif ((int(wybor) == 1 and comp_choose == 2) or (int(wybor) == 2 and comp_choose == 3) or (
-                int(wybor) == 3 and comp_choose == 1)):
-            print(f"wygrales-wybrales:{wybor},wybralem{comp_choose}")
-        elif ((int(wybor) == 2 and comp_choose == 1) or (int(wybor) == 3 and comp_choose == 2) or (
-                int(wybor) == 1 and comp_choose == 3)):
-            print(f"przegrales-wybrales:{wybor},wybralem{comp_choose}")
+        if (wybor == comp_choose):
+            print(f"\nRemis! Wybrales: {wybor}, wybralem: {comp_choose}.\n")
+        elif ((wybor == 1 and comp_choose == 2) or (wybor == 2 and comp_choose == 3) or (
+                wybor == 3 and comp_choose == 1)):
+            print(f"\nWygrales! Wybrales: {wybor}, wybralem: {comp_choose}.\n")
+        elif ((wybor == 2 and comp_choose == 1) or (wybor == 3 and comp_choose == 2) or (
+                wybor == 1 and comp_choose == 3)):
+            print(f"\nPrzegrales! Wybrales: {wybor}, wybralem: {comp_choose}.\n")
         else:
-            print('Nieprawidlowy wybor, sproboj jeszcze raz!\n')
+            print('\nNieprawidlowy wybor, sproboj jeszcze raz!\n')
 if (game_mode == 2):
     None
