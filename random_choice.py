@@ -26,8 +26,10 @@ def guess():
     guess = input("Write down your choice")
     comp_guess=random()
     if guess == comp_guess: print("Draw!")
-    elif (guess =='r' and comp_guess =='s') or (guess =='p' and comp_guess =='r') or (guess =='s' and comp_guess =='p'):
-        print("You won!")
-    else: print("You lost!") 
+    elif (guess =='r' and comp_guess =='p') or (guess =='p' and comp_guess =='s') or (guess =='s' and comp_guess =='r'):
+        print("You lost!")
+    else: print("You won!") 
+
+
 
 test()
