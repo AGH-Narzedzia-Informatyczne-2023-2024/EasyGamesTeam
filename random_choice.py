@@ -22,4 +22,12 @@ def test():
     print(f"Paper {round(p/counter*100,2)}%\n")
     print(f"Scissors {round(s/counter*100,2)}%\n")
 
+def guess():
+    guess = input("Write down your choice")
+    comp_guess=random()
+    if guess == comp_guess: print("Draw!")
+    elif (guess =='r' and comp_guess =='s') or (guess =='p' and comp_guess =='r') or (guess =='s' and comp_guess =='p'):
+        print("You won!")
+    else: print("You lost!") 
+
 test()
