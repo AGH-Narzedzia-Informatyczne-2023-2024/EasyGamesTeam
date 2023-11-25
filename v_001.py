@@ -13,15 +13,16 @@ if (game_mode == 0):
                 print("1. Papier\n")
                 print("2. Kamien\n")
                 print("3. Nozyce\n")
-                wybor = input("Wybierz swoja opcje (lub 'stop' jesle chcesz zakonczyc):")
-                if(wybor == 'stop'):
+                print(4. Wyjscie)
+                wybor = input("Wybierz swoja opcje:")
+                if wybor == 4:
                     break
                 wybor = int(wybor)
                 break
             except ValueError:
                 print('\nNieprawidlowy wybor, sproboj jeszcze raz!\n')
                 pass
-        if(wybor == 'stop'):
+        if wybor == 4:
             print('Koniec rozgrywki')
             break
         if wybor == 1:
@@ -40,15 +41,16 @@ if (game_mode == 1):
                 print("1. Papier\n")
                 print("2. Kamien\n")
                 print("3. Nozyce\n")
+                print(4. Wyjscie)
                 wybor = input("Wybierz swoja opcje (lub 'stop' jesle chcesz zakonczyc):")
-                if(wybor == 'stop'):
+                if wybor == 4:
                     break
                 wybor = int(wybor)
                 break
             except ValueError:
                 print('\nNieprawidlowy wybor, sproboj jeszcze raz!\n')
                 pass
-        if(wybor == 'stop'):
+        if wybor == 4:
             print('Koniec rozgrywki')
             break
         wybor = int(wybor)
