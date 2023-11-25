@@ -13,8 +13,8 @@ if (game_mode == 0):
                 print("1. Papier\n")
                 print("2. Kamien\n")
                 print("3. Nozyce\n")
-                print(4. Wyjscie)
-                wybor = input("Wybierz swoja opcje:")
+                print("4. Wyjscie z gry\n")
+                wybor = input("Wybierz swoja opcje: ")
                 if wybor == 4:
                     break
                 wybor = int(wybor)
@@ -41,8 +41,8 @@ if (game_mode == 1):
                 print("1. Papier\n")
                 print("2. Kamien\n")
                 print("3. Nozyce\n")
-                print(4. Wyjscie)
-                wybor = input("Wybierz swoja opcje (lub 'stop' jesle chcesz zakonczyc):")
+                print("4. Wyjscie z gry\n")
+                wybor = input("Wybierz swoja opcje:")
                 if wybor == 4:
                     break
                 wybor = int(wybor)
