@@ -14,14 +14,14 @@ while 1:
 
             value = " ".join(commandArgs[1::])
             state["username"] = value
-            print("//DEV: SET USERNAME ACTION DONE, ARGS: ", commandArgs[1::])
+            print("//DEV: SET USERNAME ACTION DONE, COMMAND RUN WITH ARGS: ", commandArgs[1::])
             print("new 'username' value: ", state["username"])
 
         case "start_game":
-            print("//DEV: START GAME ACTION DONE, ARGS: ", commandArgs[1::])
+            print("//DEV: START GAME ACTION DONE, COMMAND RUN WITH ARGS: ", commandArgs[1::])
 
         case "stop_game":
-            print("//DEV: END GAME ACTION DONE, ARGS: ", commandArgs[1::])
+            print("//DEV: END GAME ACTION DONE, COMMAND RUN WITH ARGS: ", commandArgs[1::])
 
         case "points":
             if len(commandArgs) < 3:
@@ -39,5 +39,5 @@ while 1:
                 case "remove":
                     state["points"] -= value
 
-            print("//DEV: POINTS ACTION DONE, ARGS: ", commandArgs[1::])
+            print("//DEV: POINTS ACTION DONE, COMMAND RUN WITH ARGS: ", commandArgs[1::])
             print("new 'points' value: ", state["points"])
