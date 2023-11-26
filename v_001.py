@@ -16,8 +16,6 @@ if (game_mode == 0):
                 print("3. Nozyce\n")
                 print("4. Wyjscie z gry\n")
                 wybor = input("Wybierz swoja opcje: ")
-                if wybor == 4:
-                    break
                 wybor = int(wybor)
                 break
             except ValueError:
@@ -44,8 +42,6 @@ if (game_mode == 1):
                 print("3. Nozyce\n")
                 print("4. Wyjscie z gry\n")
                 wybor = input("Wybierz swoja opcje:")
-                if wybor == 4:
-                    break
                 wybor = int(wybor)
                 break
             except ValueError:
