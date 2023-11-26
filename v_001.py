@@ -1,6 +1,7 @@
 import random
 
-print("Witaj w naszej grze!\n")
+print("Witaj w naszej grze!\n"
+      "tworze konflikt dla narzedzi 26.11.2023 proba 1")
 print("choose game mode:"
       "\nto easy(0)"
       "\nrandom(1)"
